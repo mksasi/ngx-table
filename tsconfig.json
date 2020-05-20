@@ -1,22 +1,29 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
-    "sourceMap": false,
-    "declaration": true,
-    "removeComments": true,
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "listFiles": false,
-    "noLib": false,
+    "sourceMap": true,
+    "noEmitHelpers": true,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "declaration": false,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": ["dom", "es2017"],
+    "types": [
+      "jasmine",
+      "node",
+      "webpack"
+    ]
   },
   "exclude": [
-    "node_modules"
+    "node_modules", "bundles", "dist"
   ],
   "files": [
-    "ng2-table.ts",
-    "typings/browser.d.ts"
-  ]
+    "./demo/custom-typings.d.ts",
+    "./ng2-table.ts"
+  ],
+  "atom": { "rewriteTsconfig": false }
 }
