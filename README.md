@@ -1,5 +1,5 @@
-# ng2-table [![npm version](https://badge.fury.io/js/ng2-table.svg)](http://badge.fury.io/js/ng2-table)
-Simple table extension with sorting, filtering, paging... for Angular2 apps
+# ng2-table (Forked from https://github.com/valor-software/ng2-table)
+Simple table extension with sorting, filtering, paging... for Angular2 apps (updated to Angular 9)
 
 Follow me [![twitter](https://img.shields.io/twitter/follow/valorkin.svg?style=social&label=%20valorkin)](https://twitter.com/valorkin) to be notified about new releases.
 
