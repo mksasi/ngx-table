@@ -2,7 +2,7 @@ import { Directive, EventEmitter, ElementRef, Renderer2, HostListener, Input, Ou
 
 // import {setProperty} from 'angular2/ts/src/core/forms/directives/shared';
 function setProperty(renderer:Renderer2, elementRef:ElementRef, propName:string, propValue:any):void {
-  renderer.setAttribute(elementRef, propName, propValue);
+  renderer.setProperty(elementRef, propName, propValue);
 }
 
 @Directive({selector: '[ngTableFiltering]'})
